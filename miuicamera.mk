@@ -28,6 +28,17 @@ PRODUCT_COPY_FILES += \
      $(CAMERA_PATH)/configs/device_features/alioth.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/alioth.xml \
      $(CAMERA_PATH)/configs/device_features/aliothin.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/aliothin.xml
 
+# Symlinks
+PRODUCT_PACKAGES += \
+    miui_camera_libcamera_algoup_symlink \
+    miui_camera_libcamera_mianode_symlink \
+    miui_camera_libmicampostproc_symlink \
+    miui_camera_campostproc_vendor_symlink \
+    miui_camera_libOpenCL_symlink \
+    miui_camera_libmqsas_symlink \
+    miui_camera_libcameraimpl_symlink \
+    miui_camera_libopencl_camera_symlink
+
 # Properties
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.com.google.lens.oem_camera_package=com.android.camera \
