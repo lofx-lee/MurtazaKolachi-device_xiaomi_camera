@@ -91,4 +91,4 @@ vendor/etc/camera/128_Sepia.png
 vendor/etc/camera/sceneDetection.xml
 
 # Camera Extensions
-system_ext/framework/camerax-vendor-extensions.jar
+system_ext/framework/camerax-vendor-extensions.jar:system/framework/camerax-vendor-extensions.jar;BOOT_JAR

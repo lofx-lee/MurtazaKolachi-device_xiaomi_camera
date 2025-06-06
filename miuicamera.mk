@@ -21,7 +21,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Camera Extensions permissions
 PRODUCT_COPY_FILES += \
-    $(CAMERA_PATH)/configs/permissions/extensions/camerax-vendor-extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/camerax-vendor-extensions.xml
+    $(CAMERA_PATH)/configs/permissions/extensions/camerax-vendor-extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/camerax-vendor-extensions.xml
 
 # Device-Features
 PRODUCT_COPY_FILES += \
