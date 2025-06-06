@@ -20,6 +20,7 @@ system/lib64/libgallery_arcsoft_portrait_lighting.so;FIX_SONAME
 system/lib64/libgallery_arcsoft_portrait_lighting_c.so;FIX_SONAME
 system/lib64/libgallery_block_sdk.so
 system/lib64/libgallery_mpbase.so;FIX_SONAME
+system/lib64/libgui.so:system/lib64/libgui-xiaomi.so;FIX_SONAME
 vendor/bin/f2player
 vendor/lib64/com.qcom.plugin.gpu.so
 vendor/lib64/com.qcom.plugin.jpegencode.so
