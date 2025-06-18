@@ -25,10 +25,18 @@ blob_fixups: blob_fixups_user_type = {
         blob_fixup()
         .replace_needed('libgui.so', 'libgui-xiaomi.so')
         .add_needed('libbinder_shim.so')
+        .add_needed('libgui_shim_miuicamera.so')
     ),
     'system/lib64/libcamera_mianode_jni.xiaomi.so': (
         blob_fixup()
         .replace_needed('libgui.so', 'libgui-xiaomi.so')
+        .add_needed('libbinder_shim.so')
+        .add_needed('libgui_shim_miuicamera.so')
+    ),
+    'system/lib64/libgui-xiaomi.so': (
+        blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V4-ndk.so',
+                        'android.hardware.graphics.common-V5-ndk.so')
         .add_needed('libbinder_shim.so')
     ),
 }  # fmt: skip
