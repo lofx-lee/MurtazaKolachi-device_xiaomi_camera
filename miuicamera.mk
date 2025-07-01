@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
 
 # Device-Features
 PRODUCT_COPY_FILES += \
-     $(CAMERA_PATH)/configs/device_features/apollo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/apollo.xml
+     $(CAMERA_PATH)/configs/device_features/nuwa.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/nuwa.xml
 
 # Symlinks
 PRODUCT_PACKAGES += \
