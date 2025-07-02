@@ -262,7 +262,7 @@
     </string-array>
     <bool name="support_tap_fingerprint_sensor_to_home">false</bool>
     <!-- finger for alipay. default do not need config. -->
-    <string name="finger_alipay_ifaa_model">Xiaomi-apollo</string>
+    <string name="finger_alipay_ifaa_model">Xiaomi-nuwa</string>
     <!-- type of soter finger pay, config by owner of soter -->
     <integer name="type_soter_finger_pay">2</integer>
     <!-- wheter the device support widevine l1, 1: support, 2: ota_support -->
